@@ -182,6 +182,11 @@ var CURRENCIES = [{
     addressTypes: {prod: ['49', '7d'], testnet: ['41', '42']},
     validator: BTCValidator
 },{
+    name: 'smart',
+    symbol: 'SMART',
+    addressTypes: {prod: ['3F', '12'], testnet: ['41', '15']},
+    validator: BTCValidator
+},{
     name: 'firo',
     symbol: 'FIRO',
     addressTypes: {prod: ['52', '07'], testnet: ['41', 'b2']},
